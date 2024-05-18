@@ -23,8 +23,7 @@ http.createServer(function (req, res) {
     res.writeHead(200, {'Content-Type': 'text/html'});
     res.write(fileData);
 
-    return res.end();//end the response
-  ;
+    return res.end();//end the response;
 }).listen(3000, ()=> {
     console.log("Server is sucessfully running on port 3000");// show that the function has exacuted
 });
