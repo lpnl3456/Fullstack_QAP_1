@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/lpnl3456/Fullstack_QAP_1#readme",
   "dependencies": {
-    "moment": "^2.30.1"
+    "moment": "^2.30.1",
+    "validator": "^13.12.0"
   }
 }
