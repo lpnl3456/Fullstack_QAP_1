@@ -22,15 +22,15 @@ let hoursSinceDayStarted = moment().startOf('day').fromNow();
 console.log("The day started " + hoursSinceDayStarted);
 
 //Clander Time
-//set the date to 20 day ago
+//set the date to be 20 day ago
 let newDate = moment().subtract(20, 'days').calendar();
 console.log(newDate);
 
-//set the date to 1 month ago
+//set the date to 1 be month ago
  newDate = moment().subtract(1, 'month').calendar();
 console.log(newDate);
 
-//set the date to one year in advance
+//set the date to be one year in advance
 newDate = moment().add(1, 'year').calendar();
 console.log(newDate);
 
