@@ -10,7 +10,7 @@ var validator = require('validator')
     console.log(demoString + " is not a float");
  }
 
- //Change the value to not be a float
+ //change the value to not be a float
  demoString = '$56';
 
  if(validator.isFloat(demoString) === true){
@@ -32,7 +32,7 @@ var validator = require('validator')
     console.log(demoString + " is not an email");
  }
 
- //Change the value to not be an email
+ //change the value to not be an email
  demoString = 'lukegmail.com';
 
  if(validator.isEmail(demoString) === true){

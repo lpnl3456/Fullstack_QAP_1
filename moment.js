@@ -12,16 +12,16 @@ console.log(formatedDate);
 formatedDate = moment().format('MM Do YYYY, h:mm:ss');
 console.log(formatedDate);
 
-//How to set relative time
-//Determine the amount of hours left in the day
+//how to set relative time
+//determine the amount of hours left in the day
 let amountOfHoursLeft = moment().endOf('day').fromNow(); 
 console.log("The day will end " + amountOfHoursLeft);
 
-//Determine how many hours have past since the start of the day
+//determine how many hours have past since the start of the day
 let hoursSinceDayStarted = moment().startOf('day').fromNow(); 
 console.log("The day started " + hoursSinceDayStarted);
 
-//Clander Time
+//Calander Time
 //set the date to be 20 day ago
 let newDate = moment().subtract(20, 'days').calendar();
 console.log(newDate);
